@@ -8,15 +8,15 @@ PROGRAM = ATmegaBOOT
 PRODUCT=atmega8
 
 # enter the parameters for the UISP isp tool
-ISPPARAMS  = -dprog=stk500 -dserial=$(SERIAL) -dspeed=115200
+ISPPARAMS  = -dprog=stk500 -dserial=$(SERIAL) -dspeed=19200
 
 
 #DIRAVR = /usr/local/avr
 DIRAVR = /usr
 DIRAVRBIN = $(DIRAVR)/bin
 DIRAVRUTILS = $(DIRAVR)/utils/bin
-DIRINC = $(DIRAVR)/include
-DIRLIB = $(DIRAVR)/avr/lib
+DIRINC = /usr/lib/avr/include
+DIRLIB = /usr/lib/avr/lib
 
 
 MCU_TARGET = atmega8

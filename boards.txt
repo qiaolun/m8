@@ -1,20 +1,19 @@
 
-atmega8q8.name=ATmega8 8MHz
+atmega8l.name=ATmega8L 8MHz
 
-atmega8q8.upload.using=arduino
-atmega8q8.upload.maximum_size=7168
-atmega8q8.upload.speed=19200
+atmega8l.upload.protocol=arduino
+atmega8l.upload.maximum_size=7168
+atmega8l.upload.speed=19200
 
-atmega8q8.bootloader.low_fuses=0xCA
-atmega8q8.bootloader.high_fuses=0xFF
-atmega8q8.bootloader.extended_fuses=0xFF
-atmega8q8.bootloader.path=atmega8_8m
-atmega8q8.bootloader.file=ATmegaBOOT.hex
-atmega8q8.bootloader.unlock_bits=0x3F
-atmega8q8.bootloader.lock_bits=0x0F
+atmega8l.bootloader.low_fuses=0xDF
+atmega8l.bootloader.high_fuses=0xCA
+atmega8l.bootloader.path=atmega8_8m
+atmega8l.bootloader.file=ATmegaBOOT.hex
+atmega8l.bootloader.unlock_bits=0x3F
+atmega8l.bootloader.lock_bits=0x0F
 
-atmega8q8.build.mcu=atmega8
-atmega8q8.build.f_cpu=8000000L
-atmega8q8.build.core=arduino
-atmega8q8.build.variant=standard
+atmega8l.build.mcu=atmega8
+atmega8l.build.f_cpu=8000000L
+atmega8l.build.core=arduino
+atmega8l.build.variant=standard
 
