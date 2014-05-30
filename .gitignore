@@ -1,7 +1,7 @@
 *.s
-*.o 
+*.o
 *.elf
-*.lst 
+*.lst
 *.map
-*.bin 
+*.bin
 *.srec
